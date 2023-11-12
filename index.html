@@ -13,6 +13,8 @@
     <input type="text" id='userInput' placeholder="Enter a number">
     <button onclick="checkInput()">Check result</button>
 
+    <p id="'demo"></p>
+
     <script>
         ayat = document.getElementById('myElement');
         document.body.style.fontFamily='Arial';
@@ -30,7 +32,7 @@
                 if (input < 10){
                     alert('Number lower than 10');
                 }
-                else if (input === 10){
+                else if (input == 10){
                     alert('Number is 10. congratz');
                 }
                 else{
@@ -42,6 +44,8 @@
                 alert('Use number please la');
             }
         }
+
+        let text = "";
 
 
     </script>
